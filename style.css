@@ -104,4 +104,43 @@ body {
   font-size: normal;
   line-height: 150%;
 }
+
+h2 {
+  margin: 20px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#projects {
+  display: -ms-grid;
+  display: grid;
+  background-image: url("images/bg-projects.svg");
+  background-size: cover;
+}
+
+#projects .project-tile {
+  width: 300px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#projects .project-tile p {
+  margin-bottom: 20px;
+}
+
+#projects .project-tile img {
+  width: 250px;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */

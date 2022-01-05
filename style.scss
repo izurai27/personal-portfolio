@@ -108,3 +108,38 @@ body{
 
     
 }
+
+h2{
+    margin:20px;
+    font-size:larger;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+#projects {
+    display: grid;
+    background-image: url("images/bg-projects.svg");
+    background-size: cover;
+
+    .project-tile{
+        width:300px;
+        margin-top:30px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        p{
+            margin-bottom:20px;
+        }
+
+        img {
+            width:250px;
+            height:auto;
+        }
+
+
+    }
+    
+    
+}
