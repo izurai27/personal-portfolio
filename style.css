@@ -5,5 +5,8 @@ body {
 
 #welcome-section {
   height: 100vh;
+  background-image: url("images/bg-welcome.svg");
+  background-size: cover;
+  width: 100vw;
 }
 /*# sourceMappingURL=style.css.map */
