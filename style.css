@@ -106,17 +106,19 @@ body {
 }
 
 h2 {
-  margin: 20px;
   font-size: larger;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
 #projects {
+  background-size: cover;
+  padding: 10px;
+}
+
+#projects .container2 {
   display: -ms-grid;
   display: grid;
-  background-image: url("images/bg-projects.svg");
-  background-size: cover;
 }
 
 #projects .project-tile {
@@ -133,6 +135,8 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  padding: 10px;
+  width: 90vw;
 }
 
 #projects .project-tile p {
@@ -142,5 +146,18 @@ h2 {
 #projects .project-tile img {
   width: 250px;
   height: auto;
+}
+
+@media only screen and (min-width: 577px) {
+  #welcome-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/bg-welcome.svg");
+  }
+  #welcome-section .container {
+    width: 50%;
+    margin-top: 45px;
+    margin-left: 35vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
