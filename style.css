@@ -64,8 +64,16 @@ body {
   background-image: url("images/bg-welcome-mobile.svg");
   background-size: cover;
   background-color: #23D6E8;
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+#welcome-section #navbar {
+  display: block;
+  position: fixed;
+  background-color: #23D6E8;
+  top: 0;
 }
 
 #welcome-section #navbar ul {

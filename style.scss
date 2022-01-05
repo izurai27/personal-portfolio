@@ -52,6 +52,7 @@ blockquote, q {
 body{
     font-family: 'Quicksand', sans-serif;
     font-size:15px;
+    
     // background-color:#23D6E8;
 }
 
@@ -63,14 +64,18 @@ body{
     background-size:cover;
     background-color:#23D6E8;
     // background-position:right;
-    
+    position:relative;
     box-sizing: border-box;
     // display:flex;
     // flex-direction: column;
     // align-items: flex-end;
 
     #navbar{
-        
+        display:block;
+        position:fixed;
+        background-color: #23D6E8 ;
+        top:0;
+
         ul {
             display:flex;
             flex-direction: row;
