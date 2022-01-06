@@ -71,7 +71,7 @@ body{
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        
+        height:50px;
         padding:15px 15px 0 0 ;
         
 
@@ -91,7 +91,7 @@ body{
     background-size:cover;
     background-color:#23D6E8;
     // background-position:right;
-    position:relative;
+    // position:relative;
     box-sizing: border-box;
     // display:flex;
     // flex-direction: column;
@@ -102,7 +102,8 @@ body{
     .container{
         width:80%;
         margin:auto;
-        margin-top:300px;
+        // margin-top:300px;
+        margin-top:0;
         padding:30px;
         
         h1{
@@ -186,7 +187,7 @@ h2{
         .container{
             width:50%;
             // margin:auto;
-            margin-top:45px;
+            // margin-top:45px;
             margin-left:35vw;
             // padding:30px;
             
