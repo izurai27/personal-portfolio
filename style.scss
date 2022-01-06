@@ -49,6 +49,11 @@ blockquote, q {
 	quotes: "" "";
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Quicksand', sans-serif;
     font-size:15px;
@@ -56,6 +61,28 @@ body{
     // background-color:#23D6E8;
 }
 
+#navbar{
+    display:block;
+    position:sticky;
+    background-color: #23D6E8 ;
+    top:0;
+
+    ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        padding:15px 15px 0 0 ;
+        
+
+        a{
+            text-decoration: none;
+            padding:10px;
+            font-size:smaller
+        }
+    }
+    
+}
 
 #welcome-section{
     height:100vh;
@@ -70,28 +97,7 @@ body{
     // flex-direction: column;
     // align-items: flex-end;
 
-    #navbar{
-        display:block;
-        position:fixed;
-        background-color: #23D6E8 ;
-        top:0;
-
-        ul {
-            display:flex;
-            flex-direction: row;
-            justify-content: space-around;
-            
-            padding:15px 15px 0 0 ;
-            
-
-            a{
-                text-decoration: none;
-                padding:10px;
-                font-size:smaller
-            }
-        }
-        
-    }
+    
 
     .container{
         width:80%;
@@ -120,6 +126,7 @@ h2{
     font-size:larger;
     font-weight: bold;
     margin-bottom:30px;
+    padding:20px;
 }
 
 #projects {
@@ -129,7 +136,10 @@ h2{
     padding:10px;
 
     .container2{
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
     .project-tile{
@@ -139,10 +149,11 @@ h2{
         display:flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: center;
         padding:10px;
         // border:1px solid royalblue;
-        width:90vw;
+        // width:90vw;
         // background-color:#23d8e86e;
 
         p{
@@ -158,6 +169,12 @@ h2{
     }
     
     
+}
+
+#contact{
+    p{
+        padding:20px;
+    }
 }
 
 @media only screen and (min-width:577px){
